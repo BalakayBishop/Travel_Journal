@@ -1,0 +1,26 @@
+/* ========== CSS RESET ========== */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: Inter, sans-serif;
+  background-color: #282D35;
+  color: #FFF;
+}
+
+/* ========== END CSS RESET ========== */
+
+:root {
+  --primary: #F55A5A;
+  --dark: #2B283A;
+  --grey: #918E9B;
+  --light: #F5F5F5;
+  --white: #ffffff;
+}
